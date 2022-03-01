@@ -1,0 +1,82 @@
+{
+    "hyperparams": {
+        "epochs": 100,
+        "num_folds": 10,
+        "learning_rate": 0.001,
+        "window_size": 14,
+        "batch_size": 50,
+        "hidden_size": 1
+    },
+    "results": [
+        {
+            "fold_idx": 0,
+            "first_pred_day": "2011-09-27 00:00:00",
+            "last_pred_day": "2012-10-25 00:00:00",
+            "holding_gain": 2.1979167461395264,
+            "trading_gain": 3.5754802227020264
+        },
+        {
+            "fold_idx": 1,
+            "first_pred_day": "2012-10-26 00:00:00",
+            "last_pred_day": "2013-11-06 00:00:00",
+            "holding_gain": 24.951658248901367,
+            "trading_gain": 35.26673126220703
+        },
+        {
+            "fold_idx": 2,
+            "first_pred_day": "2013-11-07 00:00:00",
+            "last_pred_day": "2014-11-18 00:00:00",
+            "holding_gain": 1.4240996837615967,
+            "trading_gain": 4.482353210449219
+        },
+        {
+            "fold_idx": 3,
+            "first_pred_day": "2014-11-19 00:00:00",
+            "last_pred_day": "2015-12-03 00:00:00",
+            "holding_gain": 0.9640952348709106,
+            "trading_gain": 2.086714744567871
+        },
+        {
+            "fold_idx": 4,
+            "first_pred_day": "2015-12-04 00:00:00",
+            "last_pred_day": "2016-12-14 00:00:00",
+            "holding_gain": 2.150102376937866,
+            "trading_gain": 2.2612249851226807
+        },
+        {
+            "fold_idx": 5,
+            "first_pred_day": "2016-12-15 00:00:00",
+            "last_pred_day": "2017-12-26 00:00:00",
+            "holding_gain": 20.2865047454834,
+            "trading_gain": 23.56966781616211
+        },
+        {
+            "fold_idx": 6,
+            "first_pred_day": "2017-12-27 00:00:00",
+            "last_pred_day": "2019-01-07 00:00:00",
+            "holding_gain": 0.2540813088417053,
+            "trading_gain": 1.245995283126831
+        },
+        {
+            "fold_idx": 7,
+            "first_pred_day": "2019-01-08 00:00:00",
+            "last_pred_day": "2020-01-19 00:00:00",
+            "holding_gain": 2.171191692352295,
+            "trading_gain": 3.2950220108032227
+        },
+        {
+            "fold_idx": 8,
+            "first_pred_day": "2020-01-20 00:00:00",
+            "last_pred_day": "2021-01-30 00:00:00",
+            "holding_gain": 3.9467148780822754,
+            "trading_gain": 6.373476505279541
+        },
+        {
+            "fold_idx": 9,
+            "first_pred_day": "2021-01-31 00:00:00",
+            "last_pred_day": "2022-02-11 00:00:00",
+            "holding_gain": 1.2355036735534668,
+            "trading_gain": 2.0803236961364746
+        }
+    ]
+}
